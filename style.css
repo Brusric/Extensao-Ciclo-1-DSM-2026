@@ -27,14 +27,18 @@ header div{
     justify-content: space-between;
 }
 
-form{
-    display: flex;
-    justify-content: space-between;
+#pesquisa{
     margin-left: 30px;
     padding: 10px;
     width: 30vw;
     background-color: white;
     border-radius: 5px;
+    background-image: url("img/Lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 input{
